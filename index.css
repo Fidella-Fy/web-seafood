@@ -1,0 +1,398 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+nav {
+  background-color: #453eba;
+  color: antiquewhite;
+  position: fixed;
+  width: 100%;
+  height: 12%;
+  top: -1px;
+  z-index: 1000;
+}
+nav h3 {
+  display: block;
+  padding-left: 100px;
+  padding-top: 10px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+  margin-left: 1030px;
+  margin-top: -50px;
+}
+
+nav ul li {
+  display: inline;
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+  transition: 0.5s, color 0.5s;
+}
+nav ul li a:hover {
+  color: #bdb76b;
+}
+header {
+  text-align: center;
+}
+
+.banner {
+  position: relative;
+}
+.banner img {
+  position: absolute;
+  width: 1180px;
+  height: 400px;
+  top: -150px;
+  left: 200px;
+}
+
+.menu h1 {
+  text-align: center;
+  position: relative;
+  left: 37%;
+  margin-top: 160%;
+  color: #453eba;
+}
+.perkenalan {
+  position: relative;
+  left: 155px;
+}
+
+.menu .menu1 {
+  width: 250px;
+  height: 300px;
+  background-color: #453eba;
+  margin-top: 50px;
+  margin-left: -10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0.9; /* Menetapkan opasitas 50% */
+  filter: blur(0.1px);
+}
+.menu .menu1 h3 {
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 10px;
+}
+.menu .menu1 img {
+  width: 70%;
+  height: 40%;
+  margin-left: 38px;
+  border-radius: 10px;
+  margin-top: -5px;
+}
+.menu .menu1 p {
+  font-size: 12px;
+  text-align: center;
+  padding: 1px 10px;
+  color: antiquewhite;
+  text-align: justify;
+}
+.menu .menu1 h4 {
+  text-align: center;
+  color: antiquewhite;
+  margin-top: 10px;
+}
+.menu .menu2 {
+  width: 250px;
+  height: 300px;
+  background-color: #453eba;
+  margin-left: 320px;
+  margin-top: -320px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0.9; /* Menetapkan opasitas 50% */
+  filter: blur(0.1px);
+}
+.menu .menu2 img {
+  width: 70%;
+  height: 40%;
+  margin-left: 38px;
+  border-radius: 10px;
+  margin-top: -5px;
+}
+.menu .menu2 h3 {
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 10px;
+}
+.menu .menu2 p {
+  font-size: 12px;
+  text-align: center;
+  padding: 1px 10px;
+  color: antiquewhite;
+  text-align: justify;
+}
+.menu .menu2 h4 {
+  text-align: center;
+  color: antiquewhite;
+  margin-top: 1px;
+}
+.menu .menu3 {
+  width: 250px;
+  height: 300px;
+  background-color: #801414;
+  margin-left: 660px;
+  margin-top: -320px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.menu .menu3 img {
+  width: 70%;
+  height: 40%;
+  margin-left: 38px;
+  border-radius: 10px;
+  margin-top: -5px;
+}
+.menu .menu3 h3 {
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 10px;
+}
+.menu .menu3 p {
+  font-size: 12px;
+  text-align: center;
+  padding: 1px 10px;
+  color: antiquewhite;
+  text-align: justify;
+}
+.menu .menu3 h4 {
+  text-align: center;
+  color: antiquewhite;
+  margin-top: 1px;
+}
+.menu .menu4 {
+  width: 250px;
+  height: 300px;
+  background-color: #801414;
+  position: relative;
+  left: 990px;
+  margin-top: -320px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.menu .menu4 img {
+  width: 70%;
+  height: 40%;
+  margin-left: 38px;
+  border-radius: 10px;
+  margin-top: -5px;
+}
+.menu .menu4 h3 {
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 10px;
+}
+.menu .menu4 p {
+  font-size: 12px;
+  text-align: center;
+  padding: 1px 10px;
+  color: antiquewhite;
+  text-align: justify;
+}
+.menu .menu4 h4 {
+  text-align: center;
+  color: antiquewhite;
+  margin-top: 1px;
+}
+.menu .minum1 {
+  width: 250px;
+  height: 300px;
+  background-color: #453eba;
+  margin-left: -10px;
+  margin-top: 80px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0.9; /* Menetapkan opasitas 50% */
+  filter: blur(0.1px);
+}
+.menu .minum1 img {
+  width: 70%;
+  height: 40%;
+  margin-left: 38px;
+  border-radius: 10px;
+  margin-top: -5px;
+}
+.menu .minum1 h3 {
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 10px;
+}
+.menu .minum1 p {
+  font-size: 12px;
+  text-align: center;
+  padding: 1px 10px;
+  color: antiquewhite;
+  text-align: justify;
+}
+.menu .minum1 h4 {
+  text-align: center;
+  color: antiquewhite;
+  margin-top: 25px;
+}
+.menu .minum2 {
+  width: 250px;
+  height: 300px;
+  background-color: #453eba;
+  margin-left: 320px;
+  margin-top: -320px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0.9; /* Menetapkan opasitas 50% */
+  filter: blur(0.1px);
+}
+.menu .minum2 img {
+  width: 70%;
+  height: 40%;
+  margin-left: 38px;
+  border-radius: 10px;
+  margin-top: -5px;
+}
+.menu .minum2 h3 {
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 10px;
+}
+.menu .minum2 p {
+  font-size: 12px;
+  text-align: center;
+  padding: 1px 10px;
+  color: antiquewhite;
+  text-align: justify;
+}
+.menu .minum2 h4 {
+  text-align: center;
+  color: antiquewhite;
+  margin-top: 10px;
+}
+.menu .minum3 {
+  width: 250px;
+  height: 300px;
+  background-color: #801414;
+  margin-left: 660px;
+  margin-top: -320px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.menu .minum3 img {
+  width: 70%;
+  height: 40%;
+  margin-left: 38px;
+  border-radius: 10px;
+  margin-top: -5px;
+}
+.menu .minum3 h3 {
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 10px;
+}
+.menu .minum3 p {
+  font-size: 12px;
+  text-align: center;
+  padding: 1px 10px;
+  color: antiquewhite;
+  text-align: justify;
+}
+.menu .minum3 h4 {
+  text-align: center;
+  color: antiquewhite;
+  margin-top: 10px;
+}
+.menu .minum4 {
+  width: 250px;
+  height: 300px;
+  background-color: #801414;
+  position: relative;
+  left: 990px;
+  margin-top: -320px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.menu .minum4 img {
+  width: 70%;
+  height: 40%;
+  margin-left: 38px;
+  border-radius: 10px;
+  margin-top: -5px;
+}
+.menu .minum4 h3 {
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 10px;
+}
+.menu .minum4 p {
+  font-size: 12px;
+  text-align: center;
+  padding: 1px 10px;
+  color: antiquewhite;
+  text-align: justify;
+}
+.menu .minum4 h4 {
+  text-align: center;
+  color: antiquewhite;
+  margin-top: 10px;
+}
+.form h1 {
+  text-align: center;
+  position: relative;
+  top: 1500px;
+  right: 450px;
+  color: #453eba;
+}
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  position: relative;
+  left: -450px;
+  bottom: -1550px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+select,
+button {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background: #5cb85c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #4cae4c;
+}
+
+p {
+  margin: 0;
+  padding: 5px 0;
+}

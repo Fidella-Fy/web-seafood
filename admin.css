@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #dcdcdc;
+}
+
+/* Container utama yang menampung sidebar dan konten */
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #801414;
+  flex: 0 0 230px;
+  padding: 40px;
+  display: flex;
+  height: 730px;
+  box-sizing: border-box;
+  flex-direction: column;
+  position: fixed;
+  color: #fff;
+  width: 255px;
+}
+.sidebar h3 {
+  margin-bottom: 50px;
+  margin-right: 5px;
+  color: antiquewhite;
+  background: #453eba;
+  padding: 10px 20px;
+  border: 2px;
+  border-radius: 5px;
+  text-align: center;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar ul li {
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  text-decoration: none;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+  transition: background-color 0.5s, color 0.7s;
+  padding: 10px 10px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #ff9900;
+  border-radius: 10px;
+  text-decoration: none;
+  color: antiquewhite;
+}
+.sidebar ul li.active a {
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #453eba;
+  color: antiquewhite;
+}
+.sidebar ul li.footer {
+  margin-top: 350px;
+  margin-left: -5px;
+  color: #453eba;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Gaya untuk konten utama */
+.main-content {
+  flex-grow: 1; /* Biarkan konten utama mengambil ruang yang tersisa */
+  padding: 50px; /* Padding di dalam konten utama */
+  margin-left: 220px;
+  text-decoration: none;
+}
+
+.main-content h1 {
+  margin-bottom: 20px;
+  color: antiquewhite;
+}
